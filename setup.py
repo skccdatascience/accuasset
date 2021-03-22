@@ -43,5 +43,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License"
     ],
     #package_data = {'' : ['color_maps/*.csv', 'font/*.ttf']},
-    package_data = {'' : ['font/*.ttf']}
+    package_data = {'' : ['accuasset/font/*.ttf']},
+    #Specify the custom install class
+    #cmdclass={'install' : move_ttf}
 )
