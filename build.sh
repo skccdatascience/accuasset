@@ -1,1 +1,2 @@
-python setup.py  bdist_wheel
+find . -name "*.pyc" -exec rm -rf {} \;
+python3 setup.py  bdist_wheel
