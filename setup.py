@@ -42,4 +42,6 @@ setuptools.setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "License :: OSI Approved :: MIT License"
     ],
+    #package_data = {'' : ['color_maps/*.csv', 'font/*.ttf']},
+    package_data = {'' : ['font/*.ttf']}
 )
