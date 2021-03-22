@@ -45,6 +45,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License"
     ],
     #package_data = {'' : ['color_maps/*.csv', 'font/*.ttf']},
-    #package_data = {'' : ['accuasset/font/*.ttf']},
+    ackage_data = {'' : ['accuasset/domain/eda/*.ttf']},
     #Specify the custom install class
 )
