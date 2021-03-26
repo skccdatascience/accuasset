@@ -31,7 +31,7 @@ font_prop = fm.FontProperties(fname=FONT_PATH, size=10).get_name()
 plt.rc('font', family=font_prop)
 fm._rebuild()
 mpl.rcParams['axes.unicode_minus'] = False
-# print(fontprop)
+print(font_prop)
 #################################################################################################
 
 # 우선 아래 설정으로 한글 폰트 출력 확인
@@ -66,7 +66,7 @@ def get_missing_bar(df):
 
 def get_top_counts(df, col, num):
     ax = sns.countplot(y=col, data=df, order=df[col].value_counts()[:num].index)
-    plt.title(f'Top {num} counts', fontproperties = fontprop)
+    plt.title(f'Top {num} counts', fontproperties = font_prop)
     plt.show()
 
 def SentanceInspect(_column):
