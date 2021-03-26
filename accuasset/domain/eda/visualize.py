@@ -31,7 +31,7 @@ font_prop = fm.FontProperties(fname=FONT_PATH, size=10).get_name()
 plt.rc('font', family=font_prop)
 fm._rebuild()
 mpl.rcParams['axes.unicode_minus'] = False
-print(font_prop)
+# print(font_prop)
 #################################################################################################
 
 # 우선 아래 설정으로 한글 폰트 출력 확인
