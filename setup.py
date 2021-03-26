@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="accuasset",
-    version='0.0.0.9',
+    version='0.0.0.10',
     author="hyeonsangjeon",
     author_email="wingnut0310@gmail.com",
     description=prop['__desc__'],
